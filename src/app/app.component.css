@@ -1,0 +1,224 @@
+.futuristic-navbar {
+  background: rgba(15, 15, 30, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.glass-blur {
+  box-shadow: 0 8px 32px 0 rgba(0, 255, 255, 0.2);
+}
+
+.futuristic-input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  transition: 0.3s ease-in-out;
+}
+
+.futuristic-input::placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+.futuristic-input:focus {
+  border-color: #0dcaf0;
+  box-shadow: 0 0 12px #0dcaf0;
+  outline: none;
+}
+
+.text-cyan-glow {
+  color: #0dcaf0;
+  text-shadow: 0 0 6px #0dcaf0;
+}
+
+.text-pink-glow {
+  color: #ff6ec7;
+  text-shadow: 0 0 6px #ff6ec7;
+}
+
+.hover-glow:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  transition: all 0.2s ease-in-out;
+}
+.glass-bg {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.futuristic-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.futuristic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 255, 255, 0.2);
+}
+
+.avatar-glow {
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+.text-cyan-glow {
+  color: #0dcaf0;
+  text-shadow: 0 0 6px #0dcaf0;
+}
+
+.text-pink-glow {
+  color: #ff6ec7;
+  text-shadow: 0 0 6px #ff6ec7;
+}
+
+.btn-outline-cyan-glow {
+  color: #0dcaf0;
+  border: 1px solid #0dcaf0;
+  background: transparent;
+}
+
+.btn-outline-cyan-glow:hover {
+  background-color: #0dcaf0;
+  color: #000;
+  box-shadow: 0 0 10px #0dcaf0;
+}
+
+.btn-outline-pink-glow {
+  color: #ff6ec7;
+  border: 1px solid #ff6ec7;
+  background: transparent;
+}
+
+.btn-outline-pink-glow:hover {
+  background-color: #ff6ec7;
+  color: #000;
+  box-shadow: 0 0 10px #ff6ec7;
+}
+.glass-card {
+  background: rgba(255, 255, 255, 0.75); /* slight tint */
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  color: #000; /* ensure text is dark */
+}
+
+.glass-card h5 {
+  color: #111; /* Dark name color */
+  font-weight: 600;
+}
+
+.glass-card p {
+  color: #444; /* Job title */
+}
+
+.employee-avatar {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.4);
+}
+
+.glass-list .list-group-item {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  font-size: 0.9rem;
+  color: #222;
+}
+
+/* Ensure buttons and icons are always visible */
+.btn-outline-primary,
+.btn-outline-danger {
+  color: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.btn-outline-primary i,
+.btn-outline-danger i {
+  color: inherit;
+  opacity: 1; /* Always visible */
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+  border-color: #dc3545;
+}
+/* Make icons and text inside buttons always visible */
+.btn-outline-primary,
+.btn-outline-danger {
+  color: #000; /* Set visible dark text/icon color */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.3); /* semi-transparent background */
+}
+
+/* Icon visibility fix */
+.btn-outline-primary i,
+.btn-outline-danger i {
+  color: #000; /* Always dark */
+}
+
+/* Hover effects */
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+  border-color: #dc3545;
+}
+.glass-modal {
+  background: rgba(20, 20, 20, 0.7);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.futuristic-input {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.futuristic-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.futuristic-input:focus {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: #0ff;
+  box-shadow: 0 0 10px #0ff;
+  color: #fff;
+}
+
+.btn-glow {
+  background: linear-gradient(45deg, #00d4ff, #007bff);
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #00d4ff99;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-glow:hover {
+  box-shadow: 0 0 25px #00d4ffcc;
+  transform: scale(1.02);
+}
