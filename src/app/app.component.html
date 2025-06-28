@@ -228,7 +228,9 @@
 <!-- Notification for no employees -->
 <div *ngIf="employees?.length == 0" class="col-lg-12 col-md-12 col-xl-12">
 <div class="alert alert-info" role="alert">
-  <h4 class="alert-heading">NO EMPLOYEES!</h4>
-  <p>No Employees were found.</p>
+  <h4 class="alert-heading">No Employees Found</h4>
+  <p>It looks like no employees were found.</p>
+  <br>
+  <p class="mb-0">However, the backend is hosted on a free Render server, so it may take a few moments to start and load the data if the site hasn't been visited in a while. Please wait a few seconds and try again.</p>
 </div>
 </div>
